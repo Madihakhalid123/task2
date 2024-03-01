@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item
+    android:title="Home"
+    android:icon="@drawable/baseline_home_24"
+    android:id="@+id/home"
+    />
+<item
+    android:title="message"
+    android:icon="@drawable/baseline_message_24"
+    android:id="@+id/msg"
+    />
+<item
+    android:title="Setting"
+    android:icon="@drawable/baseline_settings_24"
+    android:id="@+id/setting"
+    />
+    <item
+        android:title="profile">
+       <menu>
+           <item
+               android:title="login"
+               android:icon="@drawable/baseline_login_24"
+               android:id="@+id/lgn"/>
+       </menu>
+    </item>
+
+<item
+    android:title="comunicate">
+    <menu>
+        <item
+            android:title="share"
+            android:icon="@drawable/baseline_share_24"
+            android:id="@+id/sahre"/>
+
+    </menu>
+</item>
+
+
+
+
+</menu>
